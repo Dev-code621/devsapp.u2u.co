@@ -1,0 +1,16 @@
+[11-Oct-2020 12:29:28 America/Boise] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home4/iboiptvc/public_html/vendor/ramsey/uuid/src/functions.php on line 34
+[11-Oct-2020 12:33:17 America/Boise] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home4/iboiptvc/public_html/vendor/ramsey/uuid/src/functions.php on line 34
+[11-Oct-2020 12:33:38 America/Boise] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home4/iboiptvc/public_html/vendor/ramsey/uuid/src/functions.php on line 34
+[11-Oct-2020 12:33:45 America/Boise] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home4/iboiptvc/public_html/vendor/ramsey/uuid/src/functions.php on line 34
+[11-Oct-2020 12:33:52 America/Boise] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home4/iboiptvc/public_html/vendor/ramsey/uuid/src/functions.php on line 34
+[11-Oct-2020 12:33:59 America/Boise] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home4/iboiptvc/public_html/vendor/ramsey/uuid/src/functions.php on line 34
+[05-Nov-2020 00:56:12 America/Boise] PHP Parse error:  syntax error, unexpected '?', expecting variable (T_VARIABLE) in /home4/iboiptvc/public_html/vendor/ramsey/uuid/src/functions.php on line 34
+[24-Apr-2021 03:21:58 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home4/iboiptvc/public_html/database/migratiuons/2021_04_24_031938_create_reseller_price_packages_table.php): failed to open stream: No such file or directory in /home4/iboiptvc/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 /home4/iboiptvc/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home4/iboiptvc...', 109, Array)
+#1 /home4/iboiptvc/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): require_once()
+#2 /home4/iboiptvc/public_html/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(482): Illuminate\Filesystem\Filesystem->requireOnce('/home4/iboiptvc...')
+#3 /home4/iboiptvc/public_html/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(104): Illuminate\Database\Migrations\Migrator->requireFiles(Array)
+#4 /home4/iboiptvc/pub in /home4/iboiptvc/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109
+[24-Apr-2021 03:21:58 UTC] PHP Fatal error:  Illuminate\Filesystem\Filesystem::requireOnce(): Failed opening required '/home4/iboiptvc/public_html/database/migratiuons/2021_04_24_031938_create_reseller_price_packages_table.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/iboiptvc/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 109
+[24-Apr-2021 07:55:25 UTC] PHP Fatal error:  Out of memory (allocated 415236096) (tried to allocate 400560128 bytes) in /home4/iboiptvc/public_html/app/Http/Middleware/RedirectIfAuthenticated.php on line 24
